@@ -1,4 +1,5 @@
-import { Skeleton, SkeletonList } from "@/Skeletons/Skeleton"
+
+import { Skeleton, SkeletonList } from "@/Skeleton"
 import { getPostComments } from "@/api/getPostsComments"
 import { Suspense } from "react"
 
