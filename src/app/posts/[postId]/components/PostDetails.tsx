@@ -29,9 +29,7 @@ export async function PostDetails({ postId }: { postId: string }) {
         <h1 className="page-title">{post.title}</h1>
         <span className="page-subtitle">
           By:{" "}
-          <Suspense fallback={<Skeleton short inline />}>
             <UserDetails userId={post.userId} />
-          </Suspense>
         </span>
         <div>{post.body}</div>
         </Suspense>
