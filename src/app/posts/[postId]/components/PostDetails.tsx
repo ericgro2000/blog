@@ -1,7 +1,8 @@
-import { Skeleton } from "@/Skeletons/Skeleton"
+
 import { getPost } from "@/api/getPosts"
 import { Suspense } from "react"
 import { UserDetails } from "./UserDetails"
+import { Skeleton } from "@/Skeleton"
 
 export async function PostDetails({ postId }: { postId: string }) {
     const post = await getPost(postId)

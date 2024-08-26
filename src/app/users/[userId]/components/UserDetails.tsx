@@ -1,8 +1,9 @@
+
 import { Skeleton } from "@/Skeleton"
 import { getUser } from "@/api/getUsers"
 import { Suspense } from "react"
 
-async function UserDetails({ userId }: { userId: string }) {
+export async function UserDetails({ userId }: { userId: string }) {
     const user = await getUser(userId)
   
     return (

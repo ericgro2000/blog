@@ -1,8 +1,9 @@
 
-import { UserDetails } from "@/app/posts/[postId]/components/UserDetails"
+
 import { Suspense } from "react"
 import { UserPosts } from "./components/UserPosts"
 import { UserTodos } from "./components/UserTodos"
+import { UserDetails } from "./components/UserDetails"
 
 export default function UserPage({
   params: { userId },
