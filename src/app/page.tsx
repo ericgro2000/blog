@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <h1>12345</h1>
+    <h1>Next.js blog projects</h1>
   );
 }
 

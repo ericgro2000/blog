@@ -12,7 +12,6 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <h1 className="page-title">Posts</h1>
       {children}
     </>
 )

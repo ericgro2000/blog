@@ -10,8 +10,6 @@ export default async function PostsPage() {
   
     return (
       <>
-        <h1 className="page-title">Posts</h1>
-  
         <div className="card-grid">
           {posts.map(post => (
             <PostCard key={post.id} {...post} />
