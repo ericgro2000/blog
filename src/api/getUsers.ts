@@ -1,19 +1,5 @@
-type User = {
-    id: number
-    name: string
-    email: string
-    website: string
-    address: {
-      city: string
-      street: string
-      zipcode: string
-      suite: string
-    }
-    company: {
-      name: string
-    }
-  }
-  
+import { User } from "./types/types"
+
   export async function getUsers() {
     return fetch(`${process.env.API_URL}/users`)
       .then(res => res.json())
