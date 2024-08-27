@@ -9,7 +9,7 @@ export async function Comments({ postId }: { postId: string }) {
   
     return(
       <>
-       <Suspense
+       {/* <Suspense
         fallback={
           <SkeletonList amount={5}>
             <div className="card">
@@ -23,7 +23,7 @@ export async function Comments({ postId }: { postId: string }) {
             </div>
           </SkeletonList>
         }
-      >
+      > */}
     {   comments.map(comment => (
       <div key={comment.id} className="card">
         <div className="card-body">
@@ -32,7 +32,7 @@ export async function Comments({ postId }: { postId: string }) {
         </div>
       </div>
     ))}
-    </Suspense>
+    {/* </Suspense> */}
       </>
     )
   }

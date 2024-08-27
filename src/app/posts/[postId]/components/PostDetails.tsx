@@ -10,7 +10,7 @@ export async function PostDetails({ postId }: { postId: string }) {
   
     return (
       <>
-        <Suspense
+        {/* <Suspense
         fallback={
           <>
             <h1 className="page-title">
@@ -26,14 +26,14 @@ export async function PostDetails({ postId }: { postId: string }) {
             </div>
           </>
         }
-      >
+      > */}
         <h1 className="page-title">{post.title}</h1>
         <span className="page-subtitle">
           By:{" "}
             <UserDetails userId={post.userId} />
         </span>
         <div>{post.body}</div>
-        </Suspense>
+        {/* </Suspense> */}
       </>
     )
   }
