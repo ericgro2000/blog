@@ -1,5 +1,6 @@
-import { Skeleton } from "@/app/Sleketons/Skeleton"
+
 import { getUser } from "@/api/getUsers"
+import { Skeleton } from "@/app/Sleketons/Skeleton"
 import Link from "next/link"
 import { Suspense } from "react"
 
