@@ -1,5 +1,5 @@
 
-import { Skeleton } from "@/Skeleton"
+import { Skeleton } from "@/app/Sleketons/Skeleton"
 import { getUser } from "@/api/getUsers"
 import { Suspense } from "react"
 

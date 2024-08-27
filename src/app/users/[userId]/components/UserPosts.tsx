@@ -1,4 +1,4 @@
-import { SkeletonList, SkeletonPostCard } from "@/Skeleton"
+import {  SkeletonList, SkeletonPostCard } from "@/app/Sleketons/Skeleton"
 import { getUserPosts } from "@/api/getPosts"
 import { PostCard } from "@/app/posts/components/PostCatd"
 import { Suspense } from "react"

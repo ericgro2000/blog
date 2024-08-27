@@ -1,6 +1,7 @@
 
-import { Skeleton, SkeletonList } from "@/Skeleton"
+
 import { getPostComments } from "@/api/getPostsComments"
+import { Skeleton, SkeletonList } from "@/app/Sleketons/Skeleton"
 import { Suspense } from "react"
 
 export async function Comments({ postId }: { postId: string }) {
