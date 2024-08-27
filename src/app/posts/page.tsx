@@ -1,7 +1,6 @@
-// import { getPosts } from "../../../api/"
 
 import { getPosts } from "@/api/getPosts"
-import { PostCard } from "./components/PostCatd"
+import { PostCard } from "@/shared/components/Post.catd"
 
 
 export default async function PostsPage() {
